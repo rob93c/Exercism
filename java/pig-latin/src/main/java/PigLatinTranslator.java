@@ -4,7 +4,7 @@ class PigLatinTranslator {
    		String[] words = str.split(" ");
     	String newStr = "";
     	for (String word: words) {
-    		if (!newStr.equals("")) newStr += " ";
+    		if (!"".equals(newStr)) newStr += " ";
     		newStr += translateWord(word);
     	}
     	return newStr;
