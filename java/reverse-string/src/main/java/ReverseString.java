@@ -1,7 +1,7 @@
 class ReverseString {
 
-    private String reverse(String inputString) {
-    	if(inputString.equals("")) {
+    public String reverse(String inputString) {
+    	if("".equals(inputString)) {
     		return inputString;
     	} else if(inputString == null) {
             throw new IllegalArgumentException("The string can't be null.");
