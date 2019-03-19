@@ -1,11 +1,8 @@
 import java.util.Arrays;
 
 class TwelveDays {
-    public String verse (int verseNumber) {
-        return versesList[verseNumber - 1];
-    }
 
-    public static String[] versesList = {
+	public static String[] versesList = {
     	"On the first day of Christmas my true love gave to me: a Partridge in a Pear Tree.\n",
 		"On the second day of Christmas my true love gave to me: two Turtle Doves, and a Partridge in a Pear Tree.\n",
 		"On the third day of Christmas my true love gave to me: three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.\n",
@@ -19,6 +16,10 @@ class TwelveDays {
 		"On the eleventh day of Christmas my true love gave to me: eleven Pipers Piping, ten Lords-a-Leaping, nine Ladies Dancing, eight Maids-a-Milking, seven Swans-a-Swimming, six Geese-a-Laying, five Gold Rings, four Calling Birds, three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.\n",
 		"On the twelfth day of Christmas my true love gave to me: twelve Drummers Drumming, eleven Pipers Piping, ten Lords-a-Leaping, nine Ladies Dancing, eight Maids-a-Milking, seven Swans-a-Swimming, six Geese-a-Laying, five Gold Rings, four Calling Birds, three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.\n"
 	};
+	
+    public String verse (int verseNumber) {
+        return versesList[verseNumber - 1];
+    }
         
 	public String verses (int startVerse, int endVerse) {
 		return String.join("\n", Arrays.copyOfRange(versesList, startVerse - 1, endVerse));
