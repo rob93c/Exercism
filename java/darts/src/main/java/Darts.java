@@ -1,14 +1,13 @@
 class Darts {
-	double x;
-	double y;
+	private double x, y;
 
     Darts(double x, double y) {
         this.x = x;
         this.y = y;
     }
 
-    int score() {
-        double radius = Math.sqrt(x*x + y*y);
+    private int score() {
+        private double radius = Math.sqrt(x*x + y*y);
         if(radius <= 1) {
         	return 10;
         } else if(radius <= 5) {
