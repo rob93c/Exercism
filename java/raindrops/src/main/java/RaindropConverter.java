@@ -5,7 +5,7 @@ class RaindropConverter {
 	If the number has 7 as a factor, output ‘Plong’.
 	If the number does not have 3, 5, or 7 as a factor, just pass the number’s digits straight through. */
 
-    String convert(int number) {
+    private String convert(int number) {
     	String rain = "";
         if(number % 3 == 0) {
         	rain += "Pling";

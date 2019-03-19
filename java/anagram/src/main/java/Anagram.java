@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Anagram {
-	String search;
+	public String search;
 
 	public Anagram(String word) {
 		search = word;

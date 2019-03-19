@@ -16,7 +16,7 @@ class Hamming {
         this.rightStrand = rightStrand;
     }
 
-    int getHammingDistance() {
+    private int getHammingDistance() {
     	for(int i = 0; i < leftStrand.length(); i++) {
     		if(leftStrand.charAt(i) != rightStrand.charAt(i)) {
     			counter++;

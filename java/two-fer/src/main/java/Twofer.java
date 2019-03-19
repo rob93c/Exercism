@@ -1,5 +1,5 @@
 class Twofer {
-    String twofer(String name) {
+    private String twofer(String name) {
         if(name == null || name.isEmpty()) {
         	return "One for you, one for me.";
         } else {
