@@ -1,8 +1,7 @@
 public class DifferenceOfSquaresCalculator {
 
-	private int squareOfSum;
-
     public int computeSquareOfSumTo(int input) {
+        int squareOfSum = 0;
         int sum = 0;
         for(int i = 1; i <= input; i++) {
         	sum += i;
