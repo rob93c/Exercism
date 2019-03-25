@@ -1,4 +1,4 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/61414d2c93b34ea6ad46c1ee39a96f99)](https://app.codacy.com/app/rob93c/Exercism?utm_source=github.com&utm_medium=referral&utm_content=rob93c/Exercism&utm_campaign=Badge_Grade_Dashboard)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/61414d2c93b34ea6ad46c1ee39a96f99)](https://app.codacy.com/app/rob93c/Exercism?utm_source=github.com&utm_medium=referral&utm_content=rob93c/Exercism&utm_campaign=Badge_Grade_Dashboard)		[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Exercism
 
