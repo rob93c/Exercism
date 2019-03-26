@@ -8,7 +8,7 @@ class Matrix {
         matrix = values;
     }
 
-    Set<MatrixCoordinate> getSaddlePoints() {
+    public Set<MatrixCoordinate> getSaddlePoints() {
         Set<MatrixCoordinate> result = new HashSet<>();
         for (int r = 0; r < matrix.size(); r++) {
             int hi = Collections.max(matrix.get(r));
