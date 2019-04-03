@@ -18,7 +18,8 @@ class Scrabble {
     public int getSingleValue(char letter) {
     	int value = 0;
     	letter = Character.toUpperCase(letter);
-    	if(letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U' || letter == 'L' || letter == 'N' || letter == 'R' || letter == 'S' || letter == 'T') {
+    	if(letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'U' || 
+           letter == 'L' || letter == 'N' || letter == 'R' || letter == 'S' || letter == 'T') {
     		value = 1;
     	} else if(letter == 'D' || letter == 'G') {
     		value = 2;
