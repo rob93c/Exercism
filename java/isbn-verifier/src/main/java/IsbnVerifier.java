@@ -13,7 +13,7 @@ public class IsbnVerifier {
     		return false;
     	} else {
     		for(String ch: str.split("")) {
-    			if(ch.equals("X")) {
+    			if("X".equals(ch)) {
     				ch = "10";
     			}
     			sum += (Integer.parseInt(ch) * count);
