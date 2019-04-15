@@ -1,8 +1,13 @@
-# Ignore following files:
+# Ignore following file extensions:
 *.class
 *.pyc
+
+# Ignore following files:
 .directory
+
+# Ignore following folders:
 .gradle/
 .cache/
 .exercism/
 build/
+__pycache__/
