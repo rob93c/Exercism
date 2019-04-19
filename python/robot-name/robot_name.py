@@ -1,6 +1,7 @@
 import random
 from string import ascii_uppercase as letters, digits
 
+
 class Robot(object):
     robots = set()
 
@@ -15,6 +16,6 @@ class Robot(object):
 
     @staticmethod
     def generate_name():
-    	part1 = ''.join(random.choice(letters) for i in range(2))
-    	part2 = ''.join(random.choice(digits) for i in range(3))
-    	return part1 + str(part2)
+        part1 = ''.join(random.choice(letters) for i in range(2))
+        part2 = ''.join(random.choice(digits) for i in range(3))
+        return part1 + str(part2)
