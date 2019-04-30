@@ -1,7 +1,3 @@
-from collections import Counter
-from re import findall
-
-
 def word_count(phrase):
     counts = dict()
     words = phrase\
