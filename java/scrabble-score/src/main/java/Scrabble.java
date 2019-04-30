@@ -10,7 +10,7 @@ class Scrabble {
     public int getScore() {
         for(int i = 0; i < word.length(); i++) {
         	char letter = word.charAt(i);
-        	count = count + getSingleValue(letter);
+        	count += getSingleValue(letter);
         }
         return count;
     }
