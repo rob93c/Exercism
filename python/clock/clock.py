@@ -1,11 +1,11 @@
 class Clock(object):
 
-    def __init__(self, hour, minute):
+    def __init__(self, hour: int, minute: int):
         remainder = minute // 60
         self.minute = minute % 60
         self.hour = (hour + remainder) % 24
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         if self.hour == 0 and self.minute == 0:
             return f"{self.hour}0:{self.minute}0"
         elif self.hour < 10 and self.minute > 9:
@@ -23,11 +23,11 @@ class Clock(object):
         else:
             return f"{self.hour}:{self.minute}"
 
-    def __eq__(self, other):
+    def __eq__(self, other) -> bool:
         return self.hour == other.hour and self.minute == other.minute
 
-    def __add__(self, minutes):
+    def __add__(self, minutes: int) -> str:
         return Clock(self.hour, self.minute + minutes)
 
-    def __sub__(self, minutes):
+    def __sub__(self, minutes: int) -> str:
         return Clock(self.hour, self.minute - minutes)
