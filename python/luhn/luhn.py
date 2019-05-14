@@ -1,14 +1,9 @@
-import re
-
-
 class Luhn(object):
 
     def __init__(self, card_num):
         self.card_num = self.unspace(card_num)
 
     def is_valid(self) -> bool:
-        new_int = 0
-        tot = 0
         if len(self.card_num) <= 1 or not self.card_num.isdecimal():
             return False
         else:
